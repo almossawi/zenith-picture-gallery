@@ -1,0 +1,8 @@
+---------------------------------
+Using the watermark option
+Written: May 13, 2006
+---------------------------------
+
+To use the watermark, rename the file watermark.OFF.png to watermark.png.  If you want 
+to replace the file with your own, be sure it's saved as PNG-8.  I know, the restriction sucks;
+there'll be a more flexible solution in an upcoming release.
