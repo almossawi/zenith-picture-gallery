@@ -1,0 +1,15 @@
+---------------------------------
+Using IPTC data in batch adds
+User request: domc
+Written: May 13, 2006
+---------------------------------
+
+The idea behind this is that if you want to batch add pictures, then you might prefer 
+to use the values you have in your IPTC fields for each of the pictures instead of the defaults
+that the gallery sets in Admin CP -> Batch Add.  The way it works is that you modify the file 
+functions/f_admin.php for each field whose value you want to set to an IPTC field and the script 
+does the rest.
+
+Full instructions are in the file lib/jpeg_metadata_toolkit/INSTRUCTIONS.php
+
+The code used to do all this cool stuff is from the JPEG Metadata Toolkit API.
