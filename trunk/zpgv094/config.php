@@ -1,1 +1,0 @@
-<< Remember to CHMOD this file (config.php) to 666 >>
