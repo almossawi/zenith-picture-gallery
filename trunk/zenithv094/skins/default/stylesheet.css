@@ -1,0 +1,399 @@
+/*==========================
+Global
+==========================*/
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #003399
+}
+
+a:hover {
+	color: #CC0033
+}
+
+body {
+	background-color: #ccd7e0;
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	margin: 10px 0px 4px 0px;
+}
+
+.columnLeft {
+	float: left;
+	width: 50%;
+	padding-top: 1em;
+}
+
+.columnRight {
+	float: left;
+	width: 50%;
+	padding-top: 1em;
+}
+
+#half {
+	float: left;
+	width: 42%;
+	margin-top: 0;
+	margin-right: 1.5em;
+	padding-top: 0;
+	padding-right: 1em;
+	padding-bottom: 20px;
+}
+
+#and_half {
+	float: left;
+	margin-top: 0;
+	padding-top: 0;
+	width: 46%;
+}
+
+td {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 11px;
+}
+
+.error_box {
+	width: 90%;
+	background-color:#FF0000;
+	border-color:#000000;
+}
+
+.news_bar {
+	margin-top:0.6em;
+	text-align:center;
+}
+
+.msg {
+	text-align:center;
+	margin-top:.5em;
+	margin-top:.5em;
+}
+
+/*==========================
+Images
+==========================*/
+#img_tight {
+	display: block;
+}
+
+a.thumb_link .thumb { 
+	border: 1px solid #666666;
+	text-decoration: none;
+	display:block;
+	background-color: #b3bfcd;
+}
+
+a.thumb_link:hover .thumb {
+	border-color: #a9a9a9;
+}
+
+.thumb { 
+	border: 1px solid #666666;
+	float: none;
+}
+
+/*==========================
+Fonts
+==========================*/
+.header {
+	color: #666666;
+	font-size: 10px;
+}
+
+.large_text_dark {
+	color: #000000;
+	font-size: 18px;
+}
+
+.subhead {
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.comment_text {
+	color: #666666;
+	font-size: 11px;
+}
+
+
+.comment_text_head {
+	color: #fff;
+	font-size: 11px;
+}
+
+.tiny_text {
+	color: #666666;
+	font-size: 9px;
+}
+
+.tiny_text_dark {
+	color: #000000;
+	font-size: 9px;
+}
+
+.tiny_text_light {
+	color: #ffffff;
+	font-size: 9px;
+}
+
+.category_name, .category_name a:link, .category_name  a:visited, .category_name a:active  {
+	font-family: Tahoma, Verdana, Arial, Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	color: #195E9F;
+}
+
+.category_name a:hover {
+	color: #CC0033;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*==========================
+Form elements
+==========================*/
+.dropdownBox {
+      font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 100%;
+}
+
+fieldset {
+	padding: 10px;
+	margin: 2px 2px 2px 4px;
+}
+
+fieldset.default {
+	padding: 18px;
+	margin: 10px 20px 20px 20px;
+}
+
+#search_options {
+	display: none;
+}
+
+.spoiltDropdownBox {
+      font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	width: 100%;
+}
+
+.spoiltTextBox {
+   	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 95%;
+}
+
+.submitButton {
+	background-color: #ffffff;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #cccccc; 
+	text-align: center;
+	width: auto;
+	padding: 2px 3px 2px 3px;
+}
+
+.submitButton2 {
+	background-color: #ffffff;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	text-align: center;
+	width: 100px;
+	padding: 2px 3px 2px 3px;
+}
+
+.submitButton3 {
+	background-color: #ffffff;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	text-align: center;
+	width: 150px;
+	padding: 2px 3px 2px 3px;
+}
+
+.submitButtonTiny {
+	background-color: #ffffff;
+	color: #000000;
+	background: #ffffff;
+	border: 1px solid #cccccc; 
+	text-align: center;
+	width: auto;
+	padding: 1px 3px 1px 3px;
+	height: 15pt;
+	font-size: 10px;
+}
+
+.textBox {
+   	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+/*==========================
+Tables
+==========================*/
+.rowcolor1 {
+	background-color: #FFFFFF
+}
+
+.rowcolor2 {
+	background-color: #EEF2F7
+}
+
+.table_layout { 
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; 
+}
+
+.table_layout td {
+	padding: 2px 2px 2px 2px;
+}
+
+.table_layout_admin { 
+	border: 1px solid #666666;
+	border-collapse: collapse;
+	background-color: #ffffff;
+	width: 90%;
+	margin: 10px 0px 0px 0px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; 
+}
+
+.table_layout_main { 
+	color: #000000;
+	border: 1px solid #666666;
+	background-color: #F2F5F7;
+	margin: 10px 0px 0px 0px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; 
+}
+
+.table_layout_sections { 
+	border: 1px solid #666666;
+	background-color: #F2F5F7;
+	margin: 10px 0px 2px 0px;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; 
+}
+
+.table_layout_sections td {
+	padding: 5px 5px 5px 5px;
+}
+
+/*==========================
+Cell layouts
+==========================*/
+.cell_header {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #666666;
+	padding: 5px 3px 5px 3px;
+}
+
+.cell_foot {
+	background-color: #E5E9EB;
+}
+
+.cell_highlight {
+	font-family: Verdana, Tahoma, Arial, Helvetica;
+	font-size: 11px;
+	color: black;
+	background-color: #F2F5F7;
+}
+
+.dark_cell {
+	background-color: #868686;
+	color: #fff;
+	padding: 5px 5px 5px 5px;
+}
+
+.light_cell {
+	background-color: #D9DDDF;
+	color: #000000;
+	padding: 5px 5px 5px 5px;
+}
+
+.navbar a:link, .navbar  a:visited, .navbar a:active { 
+	background-color: transparent; 
+	color: #437CBA;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #CC0033;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.navbar { 
+	color: #000000;
+	border: 0px solid #666666;
+	background-color:#F2F2F2;
+	padding: 5px 1px 5px 1px;
+}
+
+.pic_cell {
+	background-color:#fff;
+}
+
+.pic_detail_cell {
+	background-color:#fff;
+}
+
+.search_page_cell {
+	background-color: #efefef;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.white_cell {
+	background-color: #fff;
+	padding: 5px 5px 5px 5px;
+}
+
+/*==========================
+Texts
+==========================*/
+/* The copyright notice must be in a visible color.
+Any attempt to hide or obscure it is against the GNU license */
+
+a.copyright:link , a.copyright:visited, a.copyright:active{
+	text-decoration: none;
+	/* color: #003399; */
+	color: black;
+}
+
+a.copyright:hover {
+	color: #CC0033;
+}
+
+.copyright_block {
+	margin-top: 6px;
+	font-size:9px;
+	font-family:Tahoma;
+	text-align: center;
+}
