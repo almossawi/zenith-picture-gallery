@@ -1,0 +1,5 @@
+Zenith Picture Gallery is a feature-rich picture gallery that organizes uploaded images into searchable categories, creates thumbnails and stores individual statistics for each one.  It was started in August 2004 as PicMan and continued to be developed thanks to academic hiatuses afforded by Winter and Summer breaks.
+
+Other features include the ability to download categories or marked pictures, sub-categories, user accounts, batch adding via FTP and batch deleting, user comments and ratings, the ability to add languages and skins, the option to rebuild thumbnails, an IP blacklist, and an admin control panel that provides access to a great deal of settings and formatting options.
+
+The two remaining major requirements that needs to be completed before v1.0 are to get rid of tables (didn't know any better back then) and make the code more modular.  Having said, I think the current release looks and works great!
